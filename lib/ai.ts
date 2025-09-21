@@ -10,16 +10,16 @@ const openai = new OpenAI({
 export async function generatePetImage(traits: string[]): Promise<string> {
   try {
     const prompt = generatePetPrompt(traits);
-    
+
     const response = await openai.images.generate({
-      model: 'google/gemini-2.0-flash-001',
+      model: 'dall-e-3',
       prompt,
       n: 1,
       size: '512x512',
       quality: 'standard',
     });
 
-    const imageUrl = response.data[0]?.url;
+    const imageUrl = response.data?.[0]?.url;
     if (!imageUrl) {
       throw new Error('No image URL returned from API');
     }
@@ -34,7 +34,7 @@ export async function generatePetImage(traits: string[]): Promise<string> {
 export async function generatePetBackstory(name: string, traits: string[]): Promise<string> {
   try {
     const completion = await openai.chat.completions.create({
-      model: 'google/gemini-2.0-flash-001',
+      model: 'gpt-4o-mini',
       messages: [
         {
           role: 'system',
