@@ -1,0 +1,14 @@
+{
+  "name": "Aether Pets",
+  "description": "Aether Pets is a Base Mini App built with Zara.",
+  "image": "https://dummyimage.com/1200x628/0a0b0d/ffffff.png&text=OG",
+  "external_url": "https://169779c2-53be-4c8a-b4ef-48dd33f1a947.vercel.app",
+  "properties": {
+    "app": {
+      "name": "Aether Pets",
+      "description": "Aether Pets is a Base Mini App built with Zara.",
+      "url": "https://169779c2-53be-4c8a-b4ef-48dd33f1a947.vercel.app",
+      "icon": "https://0co.to/images/zara-2.png"
+    }
+  }
+}

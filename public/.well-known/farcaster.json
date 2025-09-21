@@ -1,0 +1,30 @@
+{
+  "accountAssociation": {
+    "header": "",
+    "payload": "",
+    "signature": ""
+  },
+  "frame": {
+    "version": "1",
+    "name": "Aether Pets",
+    "subtitle": "Built with Zara",
+    "description": "Aether Pets is a Base Mini App built with Zara.",
+    "iconUrl": "https://0co.to/images/zara-2.png",
+    "homeUrl": "https://169779c253be4c8ab4ef48dd33f1a947-xmsj.vercel.app",
+    "splashImageUrl": "https://169779c253be4c8ab4ef48dd33f1a947-xmsj.vercel.app/splash.png",
+    "splashBackgroundColor": "#000000",
+    "heroImageUrl": "https://169779c253be4c8ab4ef48dd33f1a947-xmsj.vercel.app/image.png",
+    "tagline": "Aether Pets",
+    "screenshotUrls": [
+      "https://169779c253be4c8ab4ef48dd33f1a947-xmsj.vercel.app/screenshot.png",
+      "https://169779c253be4c8ab4ef48dd33f1a947-xmsj.vercel.app/screenshot.png"
+    ],
+    "primaryCategory": "social",
+    "tags": [
+      "base",
+      "miniapp",
+      "onchainkit"
+    ],
+    "webhookUrl": "https://169779c253be4c8ab4ef48dd33f1a947-xmsj.vercel.app/api/webhook"
+  }
+}
